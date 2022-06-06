@@ -18,7 +18,7 @@
 .rotate{
     width:100px;
     height:100px;
-    transition:width 3s,height 3s,transform 3s easee-in;
+    transition:width 3s,height 3s,transform 3s ease-in;
 }
 .rotate:hover{
     width:400px;
