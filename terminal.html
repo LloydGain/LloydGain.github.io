@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lloyd's page</title>
+        <meta charset="utf-8"></meta>   
+        <link rel ="stylesheet" href="terminal.css">
+    <head>  
+    <body onload="alert('welcome to my room')">
+        <div>
+            
+            <ul id="ulid"><!--navigator bar-->
+                <li class="liclass"><a href="#santa"></a></li>
+                <li class="liclass"><a href="#working">working experience</a></li>
+                <li class="liclass"><a href="#study">study</a></li>
+                <li class="liclass"><a href="#email">email</a></li>
+                <!-- 碰到變背景色 -->
+            </ul>
+            
+            <div>
+                <section id="santa"></section>
+                <h1><b>個人檔案:<b></h1>
+                <img class="santa" src="https://truth.bahamut.com.tw/s01/202111/3aff4e99d55347a1aba0e86bafa00cfc.JPG?w=1000"></img>
+                <!--圓的santa -->
+            </div>
+    
+          
+            <div>
+                <ul>
+                    <section id="email"></section>
+                    <li>google:<button onclick="google()">google</button><p id="google"></p></li>
+                    <li>facebook:簡宇杰</li>
+                    <li>IG:lloyd_0</li>
+                    <li>PPT:none</li>
+                </ul>
+                <img class="claus" src="https://stickershop.line-scdn.net/stickershop/v1/product/1448899/LINEStorePC/main.png;compress=true">
+                <!-- 碰到她會變清楚 -->
+            </div>
+    
+            <section id="working">
+                <h2 id="working">working exprience</h2>
+                <p>0</p>
+            </section>
+           
+            <br>
+            <hr>
+            <section id="study">
+                <h2 class="study">study experience</h2>
+                <p>雙葉幼稚園->台北國小->社區高中</p>    
+            </section>
+            
+            <img class="rotate" src="https://dictionary.cambridge.org/zht/images/thumb/Father_noun_002_13474_2.jpg?version=5.0.243">
+            <!-- 旋轉santa -->
+            <hr>
+            <div>
+                <h3>if you like,you can download my docment.</h3>
+                <button onclick="print()">下載</button>
+            </div>
+      
+            <hr>
+            
+
+        </div>
+       
+        <script>
+            function google(){
+                document.getElementById("google").innerHTML="12346@gmail.com"; 
+            }
+            document.write("現在時間<br>"+Date());
+        </script>
+    </body>
+</html> 

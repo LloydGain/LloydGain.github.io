@@ -1,0 +1,47 @@
+.santa{
+    border-radius:50%;
+    width:300px;
+    height:300px;
+}
+.claus{
+    width:5opx;
+    height:50px;
+    opacity:0.4;
+    float:right;
+}
+.claus:hover{
+    width:80px;
+    height:80px;
+    opacity:1.0;
+}
+
+.rotate{
+    width:100px;
+    height:100px;
+    transition:width 3s,height 3s,transform 3s easee-in;
+}
+.rotate:hover{
+    width:400px;
+    height:400px;
+    transform:rotate(180deg);
+}
+
+#ulid{
+    list-style-type:none;
+    margin:0;
+    padding:1;
+    overflow:hidden;
+    background-color:black;
+}
+.liclass{
+    float:left
+}
+.liclass a{
+    display:block;
+    color:aliceblue;
+    text-align:center;
+    padding:10px 15px;
+}
+.liclass a:hover{
+    background-color: gray;
+}
