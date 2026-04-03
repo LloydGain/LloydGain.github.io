@@ -1,3 +1,3 @@
-# my page: https://lloydgain.github.io/
-## github pge: https://github.com/LloydGain
+# [my page](https://lloydgain.github.io/)
+
 ---------------Hi!!----------------------
